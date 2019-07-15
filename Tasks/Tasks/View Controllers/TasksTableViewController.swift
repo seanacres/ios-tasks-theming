@@ -11,6 +11,11 @@ import CoreData
 
 class TasksTableViewController: UITableViewController, NSFetchedResultsControllerDelegate {
     
+    override func viewDidLoad() {
+        setUpAppearances()
+        super.viewDidLoad()
+    }
+    
     // MARK: Properties
     
     private let taskController = TaskController()
@@ -26,6 +31,10 @@ class TasksTableViewController: UITableViewController, NSFetchedResultsControlle
         
         let task = taskController.tasks[indexPath.row]
         cell.textLabel?.text = task.name
+        
+        cell.textLabel?.font = AppearanceHelper.breeFont(with: .caption2, pointSize: 17)
+        cell.detailTextLabel?.font = AppearanceHelper.breeFont(with: .caption2, pointSize: 17)
+        cell.backgroundColor = AppearanceHelper.beige
         
         return cell
     }
@@ -55,5 +64,12 @@ class TasksTableViewController: UITableViewController, NSFetchedResultsControlle
             let detailVC = segue.destination as! TaskDetailViewController
             detailVC.taskController = taskController
         }
+    }
+    
+    func setUpAppearances() {
+        view.backgroundColor = AppearanceHelper.beige
+        tableView.backgroundColor = AppearanceHelper.beige
+        tableView.tableFooterView = UIView()
+        navigationItem.titleView = UIImageView(image: UIImage(named: "Group"))
     }
 }
