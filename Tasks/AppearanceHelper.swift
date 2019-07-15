@@ -12,7 +12,7 @@ import UIKit
 enum AppearanceHelper {
     static var darkBlue = UIColor(red: 61.0/255.0, green: 64.0/255.0, blue: 91.0/255.0, alpha: 1.0)
     static var beige = UIColor(red: 244.0/255.0, green: 241.0/255.0, blue: 222.0/255.0, alpha: 1.0)
-    static var greenSheen = UIColor(red: 129.0/255.0, green: 178.0/255.0, blue: 154.0/255.0, alpha: 1.0)
+    static var greenSheen = UIColor(red: 16.0/255.0, green: 69.0/255.0, blue: 71.0/255.0, alpha: 1.0)
     
     static func breeFont(with textStyle: UIFont.TextStyle, pointSize: CGFloat) -> UIFont {
         let font = UIFont(name: "Varela Round", size: pointSize)!
@@ -28,7 +28,7 @@ enum AppearanceHelper {
         UINavigationBar.appearance().largeTitleTextAttributes = textAttributes
         UINavigationBar.appearance().tintColor = darkBlue
         
-        UISegmentedControl.appearance().tintColor = darkBlue
+        UISegmentedControl.appearance().tintColor = greenSheen
         
         UITextField.appearance().tintColor = darkBlue
         UITextField.appearance().backgroundColor = beige
