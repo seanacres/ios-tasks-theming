@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		46179D3C229D8257009CE2C4 /* Architex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46179D3B229D8257009CE2C4 /* Architex.ttf */; };
+		6676CEB122DD072700D6B2FB /* AppearanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6676CEB022DD072700D6B2FB /* AppearanceHelper.swift */; };
+		6676CEB322DD097A00D6B2FB /* BreeSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6676CEB222DD097A00D6B2FB /* BreeSerif-Regular.ttf */; };
+		6676CEB522DD149D00D6B2FB /* VarelaRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6676CEB422DD149D00D6B2FB /* VarelaRound-Regular.ttf */; };
 		9D4408C7211FF431005E2116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4408C6211FF431005E2116 /* AppDelegate.swift */; };
 		9D4408CC211FF431005E2116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4408CA211FF431005E2116 /* Main.storyboard */; };
 		9D4408CE211FF434005E2116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4408CD211FF434005E2116 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		46179D3B229D8257009CE2C4 /* Architex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Architex.ttf; sourceTree = "<group>"; };
+		6676CEB022DD072700D6B2FB /* AppearanceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceHelper.swift; sourceTree = SOURCE_ROOT; };
+		6676CEB222DD097A00D6B2FB /* BreeSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BreeSerif-Regular.ttf"; sourceTree = "<group>"; };
+		6676CEB422DD149D00D6B2FB /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VarelaRound-Regular.ttf"; sourceTree = "<group>"; };
 		9D4408C3211FF431005E2116 /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4408C6211FF431005E2116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4408CB211FF431005E2116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +52,7 @@
 		4B13589322091C55009F6A12 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				6676CEB022DD072700D6B2FB /* AppearanceHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -87,6 +94,8 @@
 				9D4408CF211FF434005E2116 /* LaunchScreen.storyboard */,
 				9D4408D2211FF434005E2116 /* Info.plist */,
 				46179D3B229D8257009CE2C4 /* Architex.ttf */,
+				6676CEB422DD149D00D6B2FB /* VarelaRound-Regular.ttf */,
+				6676CEB222DD097A00D6B2FB /* BreeSerif-Regular.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -178,7 +187,9 @@
 				46179D3C229D8257009CE2C4 /* Architex.ttf in Resources */,
 				9D4408D1211FF434005E2116 /* LaunchScreen.storyboard in Resources */,
 				9D4408CE211FF434005E2116 /* Assets.xcassets in Resources */,
+				6676CEB322DD097A00D6B2FB /* BreeSerif-Regular.ttf in Resources */,
 				9D4408CC211FF431005E2116 /* Main.storyboard in Resources */,
+				6676CEB522DD149D00D6B2FB /* VarelaRound-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +205,7 @@
 				9D4408E3211FF752005E2116 /* TasksTableViewController.swift in Sources */,
 				9D4408C7211FF431005E2116 /* AppDelegate.swift in Sources */,
 				9D4408DF211FF67E005E2116 /* Task.swift in Sources */,
+				6676CEB122DD072700D6B2FB /* AppearanceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
